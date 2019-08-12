@@ -72,7 +72,8 @@
 			<version>${org.slf4j-version}</version>
 			<scope>runtime</scope>
 		</dependency>
-<testFailureIgnore>true</testFailureIgnore>		<dependency>
+			<testFailureIgnore>true</testFailureIgnore>
+		<dependency>
 			<groupId>log4j</groupId>
 			<artifactId>log4j</artifactId>
 			<version>1.2.15</version>
