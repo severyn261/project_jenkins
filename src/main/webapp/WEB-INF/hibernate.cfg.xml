@@ -20,7 +20,7 @@
 		<property name="hibernate.connection.username">db207</property>
 		<property name="hibernate.connection.password">db207</property>
  -->
-		<property name="hibernate.connection.url">jdbc:mysql://10.26.34.15:3306/lv316oms?createDatabaseIfNotExist=true</property>
+		<property name="hibernate.connection.url">jdbc:mysql://10.26.34.128:3306/lv316oms?createDatabaseIfNotExist=true</property>
 		<property name="hibernate.connection.username">oms</property>
 		<property name="hibernate.connection.password">omspass</property>
  
