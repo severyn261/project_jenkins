@@ -365,7 +365,7 @@
 			    <version>3.0.0-M3</version>
 			    <configuration>
 				<skipTests>true</skipTests>
-				#<classesDirectory>${project.build.directory}/generated-classes/emma/classes</classesDirectory>
+				<classesDirectory>${project.build.directory}/generated-classes/emma/classes</classesDirectory>
 				<testFailureIgnore>true</testFailureIgnore>
 			    </configuration>
 			</plugin>
