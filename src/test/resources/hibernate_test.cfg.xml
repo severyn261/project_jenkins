@@ -10,9 +10,9 @@
 		<property name="hibernate.connection.driver_class">net.sourceforge.jtds.jdbc.Driver</property>
 		<property name="dialect">org.hibernate.dialect.SQLServerDialect</property>
 		<!--<property name="hibernate.connection.url">jdbc:jtds:sqlserver://streamer2005.softserveinc.com/_055_OMS_test;instance=tc;</property>-->
-		<property name="hibernate.connection.url">jdbc:jtds:sqlserver://ssu-sql12/Lv117proba;instance=tc;</property>
-		<property name="hibernate.connection.username">lv-117</property>
-		<property name="hibernate.connection.password">lv-117</property>
+		<property name="hibernate.connection.url">jdbc:mysql://10.26.34.15:3306/db4test</property>
+		<property name="hibernate.connection.username">root</property>
+		<property name="hibernate.connection.password">135790</property>
 
 		<property name="hibernate.hbm2ddl.auto">create-drop</property>
 
