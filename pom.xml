@@ -343,12 +343,12 @@
 						</filters>
 					</configuration>
 					<executions>
-						<!-- execution>
+						<execution>
 							<phase>process-classes</phase>
 							<goals>
 								<goal>instrument</goal>
 							</goals>
-						</execution -->
+						</execution>
 					</executions>
 			</plugin>
 
