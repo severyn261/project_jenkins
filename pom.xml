@@ -358,7 +358,7 @@
 			    <artifactId>maven-surefire-plugin</artifactId>
 			    <version>3.0.0-M3</version>
 			    <configuration>
-				<skipTests>true</skipTests>
+				<!--<skipTests>true</skipTests>-->
 				<classesDirectory>${project.build.directory}/generated-classes/emma/classes</classesDirectory>
 				<testFailureIgnore>true</testFailureIgnore>
 			    </configuration>
