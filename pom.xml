@@ -303,12 +303,12 @@
 					</dependency>
 				</dependencies>
 				<executions>
-					<!-- execution>
+					<execution>
 						<goals>
 							<goal>compile</goal>
 							<goal>test-compile</goal>
 						</goals>
-					</execution -->
+					</execution>
 				</executions>
 				<configuration>
 					<outxml>true</outxml>
