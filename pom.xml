@@ -360,7 +360,7 @@
 			    <configuration>
 				<!--<skipTests>true</skipTests>-->
 				<classesDirectory>${project.build.directory}/generated-classes/emma/classes</classesDirectory>
-				<testFailureIgnore>true</testFailureIgnore>
+				<!--<testFailureIgnore>true</testFailureIgnore>-->
 			    </configuration>
 			</plugin>
 
