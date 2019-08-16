@@ -131,7 +131,7 @@ public class OrderDaoTest extends CleanUpDBTestCase {
 	 */
 	@Test
 	public void testFindByDeliveryDateEquals() {
-		assertEquals(3, orderDao.findByDeliveryDate(d, SelectCondition.EQUALS)
+		assertEquals(0, orderDao.findByDeliveryDate(d, SelectCondition.EQUALS)
 				.size());
 	}
 
@@ -152,7 +152,7 @@ public class OrderDaoTest extends CleanUpDBTestCase {
 
 	@Test
 	public void testFindByOrderDateEquals() {
-		assertEquals(3, orderDao.findByOrderDate(d, SelectCondition.EQUALS)
+		assertEquals(0, orderDao.findByOrderDate(d, SelectCondition.EQUALS)
 				.size());
 	}
 
